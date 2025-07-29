@@ -1,0 +1,64 @@
+:root{
+  --sjs-font-questiondescription-color: #000000
+}
+.study-description {
+  text-align: left;
+  width: 700px;
+  display: block
+}
+.study-description p {
+  text-align: justify;
+  display: inline-block;
+  margin-top: 0px;
+}
+.study-description h1 {
+  font-size: 30px;
+  text-align: center;
+
+}
+.study-description h2 {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.resize {
+  width: 700px;
+  text-align:left;
+}
+.resize-alert {
+  color: #ff0000;
+}
+.instruction {
+  font-size: 50px;
+  line-height: 1.5em;
+}
+.jspsych-content.instruction {
+  display: grid;
+  grid-template-rows: 400px 200px;
+  place-items: center;
+  width: 1200px;
+  height: 600px;
+}
+.instruction p {
+  text-align: left;
+}
+#jspsych-instructions-back {
+  font-size: 50px;
+  margin-right: 100px;
+}
+#jspsych-instructions-next {
+  font-size: 50px;
+  margin-left: 100px;
+}
+.interval {
+  font-size: 50px;
+  line-height: 1.5em;
+  width: 1400px;
+  text-align:left;
+}
+.width700 {
+  font-size: 20px;
+  width: 700px;
+  text-align: left;
+}
