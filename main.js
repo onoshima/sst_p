@@ -173,7 +173,7 @@ var test = {
     data.stimulus = jsPsych.timelineVariable('stimulus');
     data.trial = jsPsych.timelineVariable('trial');
     data.block = jsPsych.timelineVariable('block');
-    console.log(data);
+    //console.log(data);
 
     if (jsPsych.timelineVariable('trial') == 'stop') {
       data.stop_signal_delay = stop_signal_delay;
